@@ -7,8 +7,12 @@ public class Main {
         crearMascota();
         consultarMascotas();
         nombre();
+        imprimirnombre();
     }
 
+    static void imprimirnombre(){
+        System.out.println("Juan Miguel Ramirez Toro");
+    }
 
     static void crearMascota() {
         Mascota m1 = new Mascota("Tobias", "Snouzer", "Canino", 5);
